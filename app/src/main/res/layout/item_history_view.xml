@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+
+            <!-- TextView для отображения страны -->
+            <TextView
+                android:id="@+id/country_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                />
+
+            <!-- TextView для отображения банка -->
+            <TextView
+                android:id="@+id/bank_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/country_text_view"
+                android:layout_marginTop="8dp"
+                />
+
+            <!-- TextView для отображения бренда -->
+            <TextView
+                android:id="@+id/brand_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bank_text_view"
+                android:layout_marginTop="8dp"
+              />
+
+            <!-- TextView для отображения номера -->
+            <TextView
+                android:id="@+id/number_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/brand_text_view"
+                android:layout_marginTop="8dp"
+                 />
+
+            <!-- TextView для отображения схемы -->
+            <TextView
+                android:id="@+id/scheme_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/number_text_view"
+                android:layout_marginTop="8dp"
+                />
+
+            <!-- TextView для отображения типа -->
+            <TextView
+                android:id="@+id/type_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/scheme_text_view"
+                android:layout_marginTop="8dp"
+                 />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</layout>
