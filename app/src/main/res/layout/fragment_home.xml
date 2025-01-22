@@ -55,7 +55,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_margin="8dp"
-                        android:text="Поиск" />
+                        android:text="@string/button_search" />
 
                     <!-- Метка для поля "Страна" -->
                     <TextView
@@ -63,7 +63,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
-                        android:text="Страна:" />
+                        android:text="@string/label_country" />
 
                     <!-- TextView для отображения страны -->
                     <TextView
@@ -81,7 +81,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
-                        android:text="Банк:" />
+                        android:text="@string/label_bank" />
 
                     <!-- TextView для отображения банка -->
                     <TextView
@@ -99,7 +99,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
-                        android:text="Бренд:" />
+                        android:text="@string/label_brand" />
 
                     <!-- TextView для отображения бренда -->
                     <TextView
@@ -117,7 +117,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
-                        android:text="Номер:" />
+                        android:text="@string/label_number" />
 
                     <!-- TextView для отображения номера -->
                     <TextView
@@ -135,7 +135,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
-                        android:text="Схема:" />
+                        android:text="@string/label_scheme" />
 
                     <!-- TextView для отображения схемы -->
                     <TextView
@@ -153,7 +153,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="8dp"
-                        android:text="Тип:" />
+                        android:text="@string/label_type" />
 
                     <!-- TextView для отображения типа -->
                     <TextView

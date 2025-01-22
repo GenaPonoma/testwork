@@ -2,5 +2,11 @@
     <string name="app_name">Test work</string>
     <string name="title_home">Поиск </string>
     <string name="title_history">История запросов</string>
-
+    <string name="label_type">Тип:</string>
+    <string name="label_scheme">Схема:</string>
+    <string name="label_number">Номер:</string>
+    <string name="label_brand">Бренд:</string>
+    <string name="label_bank">Банк:</string>
+    <string name="label_country">Страна:</string>
+    <string name="button_search">Поиск</string>
 </resources>
